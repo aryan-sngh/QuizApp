@@ -10,7 +10,7 @@ void main() {
             gradient: LinearGradient(
               colors: [
                 const Color.fromARGB(255, 69, 27, 139),
-                const Color.fromARGB(255, 107, 32, 168),
+                const Color.fromARGB(255, 147, 55, 223),
               ],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
