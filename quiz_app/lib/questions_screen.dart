@@ -19,7 +19,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(currentQuestion.text),
-          SizedBox(
+          const SizedBox(
             height: 30,
           ),
           ...currentQuestion.answers.map((answer) {
