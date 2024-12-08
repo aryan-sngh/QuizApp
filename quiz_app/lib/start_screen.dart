@@ -17,7 +17,7 @@ class StartScreen extends StatelessWidget {
             width: 300,
             color: const Color.fromARGB(139, 255, 255, 255),
           ),
-          SizedBox(
+          const SizedBox(
             height: 80,
           ),
           Text(
@@ -25,7 +25,7 @@ class StartScreen extends StatelessWidget {
             style: GoogleFonts.lato(
                 fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
           ),
-          SizedBox(
+          const SizedBox(
             height: 30,
           ),
           OutlinedButton.icon(
