@@ -14,11 +14,11 @@ class ResultScreen extends StatelessWidget {
         child: Column(
           children: [
             Text("You answers X out of Y question correctly!"),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Text("List of Answers and Questions..."),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             TextButton(
