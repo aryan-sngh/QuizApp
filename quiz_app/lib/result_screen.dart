@@ -60,8 +60,8 @@ class ResultScreen extends StatelessWidget {
             OutlinedButton.icon(
               onPressed: startQuizAgain,
               style: OutlinedButton.styleFrom(foregroundColor: Colors.white),
-              icon: Icon(Icons.refresh_outlined),
-              label: Text("Restart Quiz"),
+              icon: const Icon(Icons.refresh_outlined),
+              label:const Text("Restart Quiz"),
             )
           ],
         ),
