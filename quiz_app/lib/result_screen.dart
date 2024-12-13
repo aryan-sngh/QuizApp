@@ -38,7 +38,7 @@ class ResultScreen extends StatelessWidget {
     return SizedBox(
       width: double.infinity,
       child: Container(
-        margin: EdgeInsets.all(40),
+        margin:const EdgeInsets.all(40),
         alignment: Alignment.center,
         child: Column(
           children: [

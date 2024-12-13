@@ -18,7 +18,7 @@ class SummaryItem extends StatelessWidget {
           isCorrectAnswer: isCorrectAnswer,
           questionIndex: itemData['question_index'] as int,
         ),
-        SizedBox(
+        const SizedBox(
           width: 20,
         ),
         Expanded(
@@ -33,18 +33,18 @@ class SummaryItem extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(
+             const SizedBox(
                 height: 5,
               ),
               Text(
                 itemData['user_answer'] as String,
-                style: TextStyle(
+                style:const TextStyle(
                   color: Color.fromARGB(255, 202, 171, 252),
                 ),
               ),
               Text(
                 itemData['correct_answer'] as String,
-                style: TextStyle(
+                style:const TextStyle(
                   color: Color.fromARGB(255, 181, 254, 246),
                 ),
               )
