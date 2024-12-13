@@ -38,7 +38,7 @@ class ResultScreen extends StatelessWidget {
     return SizedBox(
       width: double.infinity,
       child: Container(
-        margin:const EdgeInsets.all(40),
+        margin: const EdgeInsets.all(40),
         alignment: Alignment.center,
         child: Column(
           children: [
@@ -61,7 +61,7 @@ class ResultScreen extends StatelessWidget {
               onPressed: startQuizAgain,
               style: OutlinedButton.styleFrom(foregroundColor: Colors.white),
               icon: const Icon(Icons.refresh_outlined),
-              label:const Text("Restart Quiz"),
+              label: const Text("Restart Quiz"),
             )
           ],
         ),
